@@ -30,7 +30,7 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [The JavaBeans specification](https://blog.joda.org/2014/11/the-javabeans-specification.html) | 5 |
 | [Explanation on how "Tell, Don't Ask" is considered good OO](https://softwareengineering.stackexchange.com/q/157526) | 5 |
 | [Why getter and setter methods are evil](https://www.infoworld.com/article/2073723/why-getter-and-setter-methods-are-evil.html) | 4 |
-| [Why extends is evil](https://www.infoworld.com/article/2073649/why-extends-is-evil.html) |  |
+| [Why extends is evil](https://www.infoworld.com/article/2073649/why-extends-is-evil.html) | 5 |
 
 ## Exceptions and exception handling
 | Description | Recommendation (1-5) |
