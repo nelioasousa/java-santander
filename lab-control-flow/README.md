@@ -1,6 +1,8 @@
 # Description
 DIO Lab: Criando Um Pequeno Sistema Para Validação de Processo Seletivo.
 
+The requested project is not actually a "Pequeno Sistema Para Validação de Processo Seletivo", but rather a simple program to use Java's control flow statements.
+
 # Readings
 | Description | Recommendation (1-5) |
 | :---        | :---                 |
