@@ -26,3 +26,12 @@ About the [Java Collections Framework](https://docs.oracle.com/javase/8/docs/tec
 | [Class ArrayList\<E\>](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) | 3 |
 | [Class LinkedList\<E\>](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) | 1 |
 | [Class ArrayDeque\<E\>](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html) | 4 |
+
+## Stream API
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [Java 8: Iniciando o desenvolvimento com a Streams API](https://www.oracle.com/br/technical-resources/articles/java-stream-api.html) | 3 |
+| [Functional Interfaces in Java 8](https://www.baeldung.com/java-8-functional-interfaces) | 5 |
+| [Interface Stream\<T\>](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html) | 4 |
+| [Lambda Expressions and Functional Interfaces: Tips and Best Practices](https://www.baeldung.com/java-8-lambda-expressions-tips) |  |
+| [Package java.util.stream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/package-summary.html) |  |
