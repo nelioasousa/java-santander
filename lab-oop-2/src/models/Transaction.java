@@ -5,29 +5,56 @@ import repository.DatabaseTableEntry;
 public class Transaction implements DatabaseTableEntry
 {
     private Integer id;
-    private Account account;
+    private Account sourceAccount;
+    private Account destinationAccount;
     private String transactionType;
     private Double transactionAmount;
     private String transactionTimestamp;
 
-    public Transaction(Account account,
+    public Transaction(Account sourceAccount,
                        String transactionType,
                        Double transactionAmount)
     {
         this.id = null;
-        this.account = account;
+        this.sourceAccount = sourceAccount;
+        this.destinationAccount = null;
+        this.transactionType = transactionType;
+        this.transactionAmount = transactionAmount;
+        this.transactionTimestamp = "9999-99-99 T00:00:00.000";
+    }
+
+    public Transaction(Account sourceAccount,
+                       Account destinationAccount,
+                       String transactionType,
+                       Double transactionAmount)
+    {
+        this.id = null;
+        this.sourceAccount = sourceAccount;
+        if (destinationAccount != null
+            && destinationAccount.equals(sourceAccount))
+        {
+            destinationAccount = null;
+        }
+        this.destinationAccount = destinationAccount;
         this.transactionType = transactionType;
         this.transactionAmount = transactionAmount;
         this.transactionTimestamp = "9999-99-99 T00:00:00.000";
     }
 
     public Transaction(Integer id,
-                       Account account,
+                       Account sourceAccount,
+                       Account destinationAccount,
                        String transactionType,
                        Double transactionAmount)
     {
         this.id = id;
-        this.account = account;
+        this.sourceAccount = sourceAccount;
+        if (destinationAccount != null
+            && destinationAccount.equals(sourceAccount))
+        {
+            destinationAccount = null;
+        }
+        this.destinationAccount = destinationAccount;
         this.transactionType = transactionType;
         this.transactionAmount = transactionAmount;
         this.transactionTimestamp = "9999-99-99 T00:00:00.000";
@@ -48,9 +75,14 @@ public class Transaction implements DatabaseTableEntry
         return this.transactionAmount;
     }
 
-    public Account getAccount()
+    public Account getSourceAccount()
     {
-        return this.account;
+        return this.sourceAccount;
+    }
+
+    public Account getDestinationAccount()
+    {
+        return this.destinationAccount;
     }
 
     public String getTransactionTimestamp()
@@ -72,8 +104,8 @@ public class Transaction implements DatabaseTableEntry
     public String toString()
     {
         return String.format(
-            "%s(id=%d, account=%d, type=%s, value=%.2f)",
-            this.getClass().getName(), this.id, this.account.getId(),
+            "%s(id=%d, sourceAccount=%d, type=%s, value=%.2f)",
+            this.getClass().getName(), this.id, this.sourceAccount.getId(),
             this.transactionType, this.transactionAmount
         );
     }

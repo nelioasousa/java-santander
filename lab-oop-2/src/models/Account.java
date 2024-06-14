@@ -60,24 +60,28 @@ public class Account implements DatabaseTableEntry
     public Transaction withdrawal(double value, List<Transaction> monthWithdrawals)
         throws WithdrawalException
     {
-        if (value <= 0.0) {
+        if (value <= 0.0)
+        {
             throw new IllegalArgumentException("Amount must be positive");
         }
         Double newBalance = this.balance - value;
-        if (newBalance < 0 && Math.abs(newBalance) > this.overdraftLimit) {
+        if (newBalance < 0 && Math.abs(newBalance) > this.overdraftLimit)
+        {
             throw new OverdraftLimitException();
         }
         double dayAccumulated = monthWithdrawals.stream()
             .filter(t -> t.itWasToday())
             .mapToDouble(t -> t.getTransactionAmount())
             .sum();
-        if ((this.dailyWithdrawalLimit - dayAccumulated) < value) {
+        if ((this.dailyWithdrawalLimit - dayAccumulated) < value)
+        {
             throw new DailyWithdrawalLimitException();
         }
         double monthAccumulated = monthWithdrawals.stream()
             .mapToDouble(t -> t.getTransactionAmount())
             .sum();
-        if ((this.monthlyWithdrawalLimit - monthAccumulated) < value) {
+        if ((this.monthlyWithdrawalLimit - monthAccumulated) < value)
+        {
             throw new MonthlyWithdrawalLimitException();
         }
         this.balance = newBalance;
@@ -86,7 +90,8 @@ public class Account implements DatabaseTableEntry
 
     public Transaction deposit(double value)
     {
-        if (value <= 0.0) {
+        if (value <= 0.0)
+        {
             throw new IllegalArgumentException("Amount must be positive");
         }
         this.balance += value;
@@ -98,14 +103,16 @@ public class Account implements DatabaseTableEntry
                                 List<Transaction> monthWithdrawalTransactions)
         throws TransferException, WithdrawalException
     {
-        if (value <= 0.0) {
+        if (value <= 0.0)
+        {
             throw new IllegalArgumentException("Amount must be positive");
         }
-        if (value > this.transferLimit) {
+        if (value > this.transferLimit)
+        {
             throw new TransferException();
         }
         this.withdrawal(value, monthWithdrawalTransactions);
         toAccount.deposit(value);
-        return new Transaction(this, "transfer", value);
+        return new Transaction(this, toAccount, "transfer", value);
     }
 }

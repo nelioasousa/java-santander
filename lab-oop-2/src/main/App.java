@@ -1,7 +1,9 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
+import exceptions.TransferException;
 import exceptions.WithdrawalException;
 import models.*;
 import repository.DummyRepository;
@@ -67,7 +69,7 @@ public class App {
         // Successful withdrawal example
         try
         {
-            // "Login" example
+            // Login example
             Account acc =
                 accountLogin(accountsRepo, tokensRepo, 200, "qwert").get();
             System.out.println(
@@ -86,6 +88,21 @@ public class App {
             transactionsRepo.save(t3);
         }
         catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        // Successful transfer example
+        try
+        {
+            List<Transaction> withdrawals = new ArrayList<Transaction>();
+            withdrawals.add(transactionsRepo.get(300).get());
+            Transaction t4 =
+                a2.transfer(150.0, a1, withdrawals);
+            t4.setId(400);
+            transactionsRepo.save(t4);
+        }
+        catch (WithdrawalException | TransferException e)
         {
             e.printStackTrace();
         }
@@ -122,7 +139,10 @@ public class App {
         String password)
     {
         Optional<Account> account = accountsRepository.get(accountId);
-        if (account.isEmpty()) { return account; }
+        if (account.isEmpty())
+        {
+            return account;
+        }
         Optional<DummyLoginToken> token = 
             tokensRepository.getAll()
                             .stream()
@@ -132,7 +152,8 @@ public class App {
         {
             throw new IllegalStateException();
         }
-        if (token.get().checkPassword(password)) {
+        if (token.get().checkPassword(password))
+        {
             return account;
         }
         return Optional.empty();

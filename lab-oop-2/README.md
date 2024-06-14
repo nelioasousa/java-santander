@@ -35,7 +35,8 @@ erDiagram
     }
     Transactions {
         Integer id
-        Integer accountId
+        Integer sourceAccountId
+        Integer destinationAccountId
         Float   transactionAmount
         String  transactionType
         String  transactionTimestamp
