@@ -31,7 +31,11 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [What is Maven?](https://maven.apache.org/what-is-maven.html) | 3 |
 | [Introduction to the Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) | 2 |
 | [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) | 3 |
-| [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html) |  |
+| [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html) | 4 |
+| [Introduction to the POM](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html) |  |
+| [Introduction to the Dependency Mechanism](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html) |  |
+| [Introduction to Repositories](https://maven.apache.org/guides/introduction/introduction-to-repositories.html) |  |
+| [Password Encryption](https://maven.apache.org/guides/mini/guide-encryption.html) |  |
 
 ## Applications Design
 | Description | Recommendation (1-5) |
