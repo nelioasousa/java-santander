@@ -37,6 +37,13 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [Introduction to Repositories](https://maven.apache.org/guides/introduction/introduction-to-repositories.html) |  |
 | [Password Encryption](https://maven.apache.org/guides/mini/guide-encryption.html) |  |
 
+## Mockito
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [Mockito Tutorial](https://www.baeldung.com/mockito-series) |  |
+| [Unit tests with Mockito - Tutorial](https://www.vogella.com/tutorials/Mockito/article.html) |  |
+| [Mockito javadoc](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html) |  |
+
 ## Applications Design
 | Description | Recommendation (1-5) |
 | :---        | :---                 |
