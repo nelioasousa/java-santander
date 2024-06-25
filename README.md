@@ -94,3 +94,20 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [Interface Stream\<T\>](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html) | 4 |
 | [Lambda Expressions and Functional Interfaces: Tips and Best Practices](https://www.baeldung.com/java-8-lambda-expressions-tips) |  |
 | [Package java.util.stream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/package-summary.html) |  |
+
+## Databases
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [Database normalization](https://en.wikipedia.org/wiki/Database_normalization) |  |
+| [SQL join types](https://www.metabase.com/learn/sql-questions/sql-join-types) | 4 |
+| [SQL Tutorial](https://www.sqltutorial.org/) |  |
+| [NoSQL](https://en.wikipedia.org/wiki/NoSQL) | 3 |
+| [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) | 4 |
+| [Database scalability](https://en.wikipedia.org/wiki/Database_scalability) | 4 |
+| [What is NoSQL?](https://www.mongodb.com/resources/basics/databases/nosql-explained) | 3 |
+| [When to Use a NoSQL Database](https://www.mongodb.com/resources/basics/databases/nosql-explained/when-to-use-nosql) |  |
+| [MongoDB](https://en.wikipedia.org/wiki/MongoDB) | 4 |
+| [Redis](https://en.wikipedia.org/wiki/Redis) |  |
+| [MongoDB - Start with Guides](https://www.mongodb.com/docs/guides/) | 5 |
+| [MongoDB Training](https://learn.mongodb.com/catalog) |  |
+| [MongoDB Java Developer Path](https://learn.mongodb.com/learning-paths/mongodb-java-developer-path) |  |
