@@ -111,3 +111,4 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [MongoDB - Start with Guides](https://www.mongodb.com/docs/guides/) | 5 |
 | [MongoDB Training](https://learn.mongodb.com/catalog) |  |
 | [MongoDB Java Developer Path](https://learn.mongodb.com/learning-paths/mongodb-java-developer-path) |  |
+| [MongoDB Atlas Java Sample Project](https://github.com/mongodb-university/atlas_starter_java) |  |
