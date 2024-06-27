@@ -17,6 +17,7 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [COMO O JAVA SE TORNOU OPEN SOURCE (E PORQUE ISSO IMPORTA)](https://youtu.be/Uf7FZuLP7MY?si=JLiaLocU3wX2_3f2) | 5 |
 | [JDK 17 approaches end-of-permissive license](https://blogs.oracle.com/java/post/jdk-17-approaches-endofpermissive-license) | 3 |
 | [Differences Between Oracle JDK and OpenJDK](https://www.baeldung.com/oracle-jdk-vs-openjdk) | 3 |
+| [The Java Tutorials](https://docs.oracle.com/javase/tutorial/) |  |
 
 ## Java Projects Structure
 | Description | Recommendation (1-5) |
@@ -112,3 +113,19 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [MongoDB Training](https://learn.mongodb.com/catalog) |  |
 | [MongoDB Java Developer Path](https://learn.mongodb.com/learning-paths/mongodb-java-developer-path) |  |
 | [MongoDB Atlas Java Sample Project](https://github.com/mongodb-university/atlas_starter_java) |  |
+
+## Spring / IoC and DI / Jakarta EE
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [What is Java EE?](https://stackoverflow.com/a/109022/16969525) | 4 |
+| [Java / Jakarta EE web development, where do I start and what skills do I need?](https://stackoverflow.com/a/1958854/16969525) | 3 |
+| [Jakarta EE Tutorial](https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html) |  |
+| [Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) | 2 |
+| [What exactly is Spring Framework for?](https://stackoverflow.com/a/1064562/16969525) | 5 |
+| [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework) |  |
+| [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) |  |
+| [Spring Boot](https://spring.io/projects/spring-boot) | 4 |
+| [Spring Quickstart Guide](https://spring.io/quickstart) |  |
+| [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
+| [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service) |  |
+| [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) |  |
