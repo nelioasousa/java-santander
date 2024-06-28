@@ -129,3 +129,10 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
 | [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service) |  |
 | [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) |  |
+
+## Security
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [JSON Web Tokens (JWT) — the only explanation you will ever need](https://arielweinberger.medium.com/json-web-token-jwt-the-only-explanation-youll-ever-need-cf53f0822f50) | 3 |
+| [Where to store JWT in browser? How to protect against CSRF?](https://stackoverflow.com/q/27067251/16969525) |  |
+| [Introduction to JSON Web Tokens](https://jwt.io/introduction) |  |
