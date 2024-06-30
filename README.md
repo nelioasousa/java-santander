@@ -123,7 +123,7 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) | 2 |
 | [What exactly is Spring Framework for?](https://stackoverflow.com/a/1064562/16969525) | 5 |
 | [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework) |  |
-| [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) |  |
+| [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) | 5 |
 | [Spring Boot](https://spring.io/projects/spring-boot) | 4 |
 | [Spring Quickstart Guide](https://spring.io/quickstart) |  |
 | [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
