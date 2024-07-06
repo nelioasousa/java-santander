@@ -114,21 +114,27 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [MongoDB Java Developer Path](https://learn.mongodb.com/learning-paths/mongodb-java-developer-path) |  |
 | [MongoDB Atlas Java Sample Project](https://github.com/mongodb-university/atlas_starter_java) |  |
 
-## Spring / IoC and DI / Jakarta EE
+## Jakarta EE
 | Description | Recommendation (1-5) |
 | :---        | :---                 |
 | [What is Java EE?](https://stackoverflow.com/a/109022/16969525) | 4 |
 | [Java / Jakarta EE web development, where do I start and what skills do I need?](https://stackoverflow.com/a/1958854/16969525) | 3 |
-| [Jakarta EE Tutorial](https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html) |  |
 | [Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) | 2 |
-| [What exactly is Spring Framework for?](https://stackoverflow.com/a/1064562/16969525) | 5 |
-| [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework) |  |
+| [Jakarta EE Tutorial](https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html) |  |
+
+## Spring
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
 | [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) | 5 |
+| [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework) | 2 |
+| [What exactly is Spring Framework for?](https://stackoverflow.com/a/1064562/16969525) | 5 |
 | [Spring Boot](https://spring.io/projects/spring-boot) | 4 |
-| [Spring Quickstart Guide](https://spring.io/quickstart) |  |
+| [How to create your first Spring Application (without Spring Boot)](https://youtu.be/e8aSyQo0nHo?si=HWdAnc0MP_LW0qHI) | 4 |
+| [Spring Quickstart Guide](https://spring.io/quickstart) | 2 |
 | [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
-| [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service) |  |
 | [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) |  |
+| [Java Spring Framework Dependency Injection Without Spring Boot](https://thebackendguy.medium.com/java-spring-framework-dependency-injection-without-spring-boot-e21ea7729d6c) |  |
+| [Building REST services with Spring](https://spring.io/guides/tutorials/rest) |  |
 
 ## Security
 | Description | Recommendation (1-5) |
@@ -136,3 +142,8 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [JSON Web Tokens (JWT) — the only explanation you will ever need](https://arielweinberger.medium.com/json-web-token-jwt-the-only-explanation-youll-ever-need-cf53f0822f50) | 3 |
 | [Where to store JWT in browser? How to protect against CSRF?](https://stackoverflow.com/q/27067251/16969525) |  |
 | [Introduction to JSON Web Tokens](https://jwt.io/introduction) |  |
+
+## Web
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [What's the Difference Between SOAP and REST?](https://aws.amazon.com/compare/the-difference-between-soap-rest/) | 5 |
