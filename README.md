@@ -4,6 +4,12 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 **Development Environment:** [OpenJDK 21.0.2](https://jdk.java.net/21/) / Ubuntu 22.04.4 LTS with [Windows WSL2](https://learn.microsoft.com/en-us/windows/wsl/) / [VSCode + Java Extension Pack](https://code.visualstudio.com/docs/languages/java).
 
 # Resources
+## Java Language
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [Lesson: Annotations](https://docs.oracle.com/javase%2Ftutorial%2F/java/annotations/index.html) | 3 |
+| [Trail: Learning the Java Language: Table of Contents](https://docs.oracle.com/javase/tutorial/java/TOC.html) |  |
+
 ## Development Environment
 | Description | Recommendation (1-5) |
 | :---        | :---                 |
@@ -132,8 +138,8 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [How to create your first Spring Application (without Spring Boot)](https://youtu.be/e8aSyQo0nHo?si=HWdAnc0MP_LW0qHI) | 4 |
 | [Spring Quickstart Guide](https://spring.io/quickstart) | 2 |
 | [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
-| [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) |  |
-| [Java Spring Framework Dependency Injection Without Spring Boot](https://thebackendguy.medium.com/java-spring-framework-dependency-injection-without-spring-boot-e21ea7729d6c) |  |
+| [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) | 4 |
+| [Java Spring Framework Dependency Injection Without Spring Boot](https://thebackendguy.medium.com/java-spring-framework-dependency-injection-without-spring-boot-e21ea7729d6c) | 3 |
 | [Building REST services with Spring](https://spring.io/guides/tutorials/rest) |  |
 
 ## Security
