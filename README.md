@@ -11,6 +11,11 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [Trail: Learning the Java Language: Table of Contents](https://docs.oracle.com/javase/tutorial/java/TOC.html) |  |
 | [Learn Java](https://dev.java/learn/) |  |
 
+## Others
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [Introduction to SLF4J](https://www.baeldung.com/slf4j-with-log4j2-logback) |  |
+
 ## Development Environment
 | Description | Recommendation (1-5) |
 | :---        | :---                 |
@@ -140,10 +145,12 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [Spring Boot](https://spring.io/projects/spring-boot) | 4 |
 | [How to create your first Spring Application (without Spring Boot)](https://youtu.be/e8aSyQo0nHo?si=HWdAnc0MP_LW0qHI) | 4 |
 | [Spring Quickstart Guide](https://spring.io/quickstart) | 2 |
-| [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
 | [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) | 4 |
 | [Java Spring Framework Dependency Injection Without Spring Boot](https://thebackendguy.medium.com/java-spring-framework-dependency-injection-without-spring-boot-e21ea7729d6c) | 3 |
+| [Spring Boot CommandLineRunner Example](https://mkyong.com/spring-boot/spring-boot-commandlinerunner-example/) | 5 |
+| [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
 | [Building REST services with Spring](https://spring.io/guides/tutorials/rest) |  |
+| [Using the @SpringBootApplication Annotation](https://docs.spring.io/spring-boot/reference/using/using-the-springbootapplication-annotation.html) |  |
 
 ## Security
 | Description | Recommendation (1-5) |
