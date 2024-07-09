@@ -14,7 +14,9 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 ## Others
 | Description | Recommendation (1-5) |
 | :---        | :---                 |
-| [Introduction to SLF4J](https://www.baeldung.com/slf4j-with-log4j2-logback) |  |
+| [Introduction to SLF4J](https://www.baeldung.com/slf4j-with-log4j2-logback) | 2 |
+| [SLF4J user manual](https://www.slf4j.org/manual.html) | 4 |
+| [Introduction to Java Logging](https://www.baeldung.com/java-logging-intro) | 4 |
 
 ## Development Environment
 | Description | Recommendation (1-5) |
