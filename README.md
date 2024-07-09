@@ -9,6 +9,7 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | :---        | :---                 |
 | [Lesson: Annotations](https://docs.oracle.com/javase%2Ftutorial%2F/java/annotations/index.html) | 3 |
 | [Trail: Learning the Java Language: Table of Contents](https://docs.oracle.com/javase/tutorial/java/TOC.html) |  |
+| [Learn Java](https://dev.java/learn/) |  |
 
 ## Development Environment
 | Description | Recommendation (1-5) |
@@ -126,7 +127,9 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [What is Java EE?](https://stackoverflow.com/a/109022/16969525) | 4 |
 | [Java / Jakarta EE web development, where do I start and what skills do I need?](https://stackoverflow.com/a/1958854/16969525) | 3 |
 | [Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) | 2 |
-| [Jakarta EE Tutorial](https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html) |  |
+| [How to store and retrieve data using Jakarta Persistence of Jakarta EE](https://jakarta.ee/learn/starter-guides/how-to-store-and-retrieve-data-using-jakarta-persistence/) | 3 |
+| [Jakarta EE Tutorial](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html) |  |
+| [An Introduction to Jakarta EE](https://eclipse-ee4j.github.io/jakartaee-firstcup/toc.html) |  |
 
 ## Spring
 | Description | Recommendation (1-5) |
