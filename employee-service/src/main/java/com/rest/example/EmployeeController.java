@@ -2,6 +2,8 @@ package com.rest.example;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,6 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class EmployeeController {
+
+    private static final Logger logger =
+        LoggerFactory.getLogger(EmployeeController.class);
 
     private final EmployeeRepository repository;
 
@@ -36,9 +41,9 @@ public class EmployeeController {
     @DeleteMapping("/employees/{id}")
     void deleteById(@PathVariable Long id)
     {
-        repository.delete(
-            repository.findById(id).orElseThrow(() -> new EmployeeNotFoundException(id))
-        );
+        Employee employee = repository.findById(id).orElseThrow(() -> new EmployeeNotFoundException(id));
+        repository.delete(employee);
+        logger.info("{} deleted", employee);
         repository.flush();
     }
 
@@ -47,6 +52,7 @@ public class EmployeeController {
     {
         return repository.findById(id)
             .map(employee -> {
+                logger.info("Updating {}", employee);
                 if (newEmployee.getName() != null) {
                     employee.setName(newEmployee.getName());
                 }
@@ -61,6 +67,12 @@ public class EmployeeController {
     @PostMapping("/employees")
     Employee insert(@RequestBody Employee newEmployee)
     {
+        if (newEmployee.getId() != null) {
+            repository.findById(newEmployee.getId()).map(employee -> {
+                logger.info("Replacing {}", employee);
+                return null;
+            });
+        }
         return repository.saveAndFlush(newEmployee);
     }
 
