@@ -17,6 +17,7 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [Introduction to SLF4J](https://www.baeldung.com/slf4j-with-log4j2-logback) | 2 |
 | [SLF4J user manual](https://www.slf4j.org/manual.html) | 4 |
 | [Introduction to Java Logging](https://www.baeldung.com/java-logging-intro) | 4 |
+| [The Vietnam of Computer Science](https://www.odbms.org/wp-content/uploads/2013/11/031.01-Neward-The-Vietnam-of-Computer-Science-June-2006.pdf) |  |
 
 ## Development Environment
 | Description | Recommendation (1-5) |
@@ -137,6 +138,7 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [How to store and retrieve data using Jakarta Persistence of Jakarta EE](https://jakarta.ee/learn/starter-guides/how-to-store-and-retrieve-data-using-jakarta-persistence/) | 3 |
 | [Jakarta EE Tutorial](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html) |  |
 | [An Introduction to Jakarta EE](https://eclipse-ee4j.github.io/jakartaee-firstcup/toc.html) |  |
+| [A Comparison Between JPA and JDBC](https://www.baeldung.com/jpa-vs-jdbc) | 4 |
 
 ## Spring
 | Description | Recommendation (1-5) |
