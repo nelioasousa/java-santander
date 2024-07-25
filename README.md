@@ -7,9 +7,52 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 ## Java Language
 | Description | Recommendation (1-5) |
 | :---        | :---                 |
-| [Lesson: Annotations](https://docs.oracle.com/javase%2Ftutorial%2F/java/annotations/index.html) | 3 |
 | [Trail: Learning the Java Language: Table of Contents](https://docs.oracle.com/javase/tutorial/java/TOC.html) |  |
 | [Learn Java](https://dev.java/learn/) |  |
+| [Lesson: Annotations](https://docs.oracle.com/javase%2Ftutorial%2F/java/annotations/index.html) | 3 |
+
+## Spring
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [Spring Boot](https://docs.spring.io/spring-boot/index.html) |  |
+| [Spring Persistence Tutoria](https://www.baeldung.com/persistence-with-spring-series) |  |
+| [All Spring Data Guides](https://www.baeldung.com/spring-data) |  |
+| [REST with Spring Tutorial](https://www.baeldung.com/rest-with-spring-series) |  |
+| [Security with Spring](https://www.baeldung.com/security-spring) |  |
+| [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) | 5 |
+| [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework) | 2 |
+| [What exactly is Spring Framework for?](https://stackoverflow.com/a/1064562/16969525) | 5 |
+| [Spring Boot](https://spring.io/projects/spring-boot) | 4 |
+| [How to create your first Spring Application (without Spring Boot)](https://youtu.be/e8aSyQo0nHo?si=HWdAnc0MP_LW0qHI) | 4 |
+| [Spring Quickstart Guide](https://spring.io/quickstart) | 2 |
+| [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) | 4 |
+| [Java Spring Framework Dependency Injection Without Spring Boot](https://thebackendguy.medium.com/java-spring-framework-dependency-injection-without-spring-boot-e21ea7729d6c) | 3 |
+| [Spring Boot CommandLineRunner Example](https://mkyong.com/spring-boot/spring-boot-commandlinerunner-example/) | 5 |
+| [Building REST services with Spring](https://spring.io/guides/tutorials/rest) | 5 |
+
+## Jakarta EE
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [Jakarta EE Tutorial](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html) |  |
+| [An Introduction to Jakarta EE](https://eclipse-ee4j.github.io/jakartaee-firstcup/toc.html) |  |
+| [What is Java EE?](https://stackoverflow.com/a/109022/16969525) | 4 |
+| [Java / Jakarta EE web development, where do I start and what skills do I need?](https://stackoverflow.com/a/1958854/16969525) | 3 |
+| [Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) | 2 |
+| [How to store and retrieve data using Jakarta Persistence of Jakarta EE](https://jakarta.ee/learn/starter-guides/how-to-store-and-retrieve-data-using-jakarta-persistence/) | 3 |
+| [A Comparison Between JPA and JDBC](https://www.baeldung.com/jpa-vs-jdbc) | 4 |
+
+## Web
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [What's the Difference Between SOAP and REST?](https://aws.amazon.com/compare/the-difference-between-soap-rest/) | 5 |
+| [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) |  |
+
+## Security
+| Description | Recommendation (1-5) |
+| :---        | :---                 |
+| [JSON Web Tokens (JWT) — the only explanation you will ever need](https://arielweinberger.medium.com/json-web-token-jwt-the-only-explanation-youll-ever-need-cf53f0822f50) | 3 |
+| [Where to store JWT in browser? How to protect against CSRF?](https://stackoverflow.com/q/27067251/16969525) |  |
+| [Introduction to JSON Web Tokens](https://jwt.io/introduction) |  |
 
 ## Others
 | Description | Recommendation (1-5) |
@@ -128,43 +171,3 @@ Repository for Santander Bootcamp 2024: Backend with Java. The bootcamp is hoste
 | [MongoDB Training](https://learn.mongodb.com/catalog) |  |
 | [MongoDB Java Developer Path](https://learn.mongodb.com/learning-paths/mongodb-java-developer-path) |  |
 | [MongoDB Atlas Java Sample Project](https://github.com/mongodb-university/atlas_starter_java) |  |
-
-## Jakarta EE
-| Description | Recommendation (1-5) |
-| :---        | :---                 |
-| [What is Java EE?](https://stackoverflow.com/a/109022/16969525) | 4 |
-| [Java / Jakarta EE web development, where do I start and what skills do I need?](https://stackoverflow.com/a/1958854/16969525) | 3 |
-| [Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) | 2 |
-| [How to store and retrieve data using Jakarta Persistence of Jakarta EE](https://jakarta.ee/learn/starter-guides/how-to-store-and-retrieve-data-using-jakarta-persistence/) | 3 |
-| [Jakarta EE Tutorial](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html) |  |
-| [An Introduction to Jakarta EE](https://eclipse-ee4j.github.io/jakartaee-firstcup/toc.html) |  |
-| [A Comparison Between JPA and JDBC](https://www.baeldung.com/jpa-vs-jdbc) | 4 |
-
-## Spring
-| Description | Recommendation (1-5) |
-| :---        | :---                 |
-| [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) | 5 |
-| [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework) | 2 |
-| [What exactly is Spring Framework for?](https://stackoverflow.com/a/1064562/16969525) | 5 |
-| [Spring Boot](https://spring.io/projects/spring-boot) | 4 |
-| [How to create your first Spring Application (without Spring Boot)](https://youtu.be/e8aSyQo0nHo?si=HWdAnc0MP_LW0qHI) | 4 |
-| [Spring Quickstart Guide](https://spring.io/quickstart) | 2 |
-| [Demystifying Spring Internals](https://youtu.be/LeoCh7VK9cg?si=zpR4vOCwuJ6dPD6A) | 4 |
-| [Java Spring Framework Dependency Injection Without Spring Boot](https://thebackendguy.medium.com/java-spring-framework-dependency-injection-without-spring-boot-e21ea7729d6c) | 3 |
-| [Spring Boot CommandLineRunner Example](https://mkyong.com/spring-boot/spring-boot-commandlinerunner-example/) | 5 |
-| [Building REST services with Spring](https://spring.io/guides/tutorials/rest) | 5 |
-| [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot) |  |
-| [Using the @SpringBootApplication Annotation](https://docs.spring.io/spring-boot/reference/using/using-the-springbootapplication-annotation.html) |  |
-
-## Security
-| Description | Recommendation (1-5) |
-| :---        | :---                 |
-| [JSON Web Tokens (JWT) — the only explanation you will ever need](https://arielweinberger.medium.com/json-web-token-jwt-the-only-explanation-youll-ever-need-cf53f0822f50) | 3 |
-| [Where to store JWT in browser? How to protect against CSRF?](https://stackoverflow.com/q/27067251/16969525) |  |
-| [Introduction to JSON Web Tokens](https://jwt.io/introduction) |  |
-
-## Web
-| Description | Recommendation (1-5) |
-| :---        | :---                 |
-| [What's the Difference Between SOAP and REST?](https://aws.amazon.com/compare/the-difference-between-soap-rest/) | 5 |
-| [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) |  |
